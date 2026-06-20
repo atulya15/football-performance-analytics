@@ -1,0 +1,13 @@
+       league_name        |    player_name     | goals 
+--------------------------+--------------------+-------
+ Spain LIGA BBVA          | Lionel Messi       |   295
+ Italy Serie A            | Antonio Di Natale  |   156
+ England Premier League   | Wayne Rooney       |   135
+ Germany 1. Bundesliga    | Robert Lewandowski |   124
+ France Ligue 1           | Zlatan Ibrahimovic |   120
+ Netherlands Eredivisie   | Luuk de Jong       |    47
+ Switzerland Super League | Guillaume Hoarau   |    17
+ Scotland Premier League  | Kenny Miller       |     7
+ Poland Ekstraklasa       | Artjoms Rudnevs    |     3
+(9 rows)
+

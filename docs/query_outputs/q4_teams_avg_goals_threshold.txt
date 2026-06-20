@@ -1,0 +1,36 @@
+      team_name      | matches_played | avg_goals_per_match 
+---------------------+----------------+---------------------
+ FC Barcelona        |            304 |                2.79
+ Real Madrid CF      |            304 |                2.77
+ PSV                 |            272 |                2.40
+ FC Bayern Munich    |            272 |                2.40
+ Ajax                |            272 |                2.38
+ Celtic              |            304 |                2.29
+ SL Benfica          |            248 |                2.29
+ FC Porto            |            248 |                2.18
+ FC Basel            |            286 |                2.16
+ Rangers             |            152 |                2.13
+ Borussia Dortmund   |            272 |                2.03
+ RSC Anderlecht      |            212 |                2.01
+ Manchester City     |            304 |                1.99
+ Club Brugge KV      |            212 |                1.99
+ Chelsea             |            304 |                1.92
+ Manchester United   |            304 |                1.91
+ Arsenal             |            304 |                1.88
+ FC Twente           |            272 |                1.87
+ Paris Saint-Germain |            304 |                1.87
+ BSC Young Boys      |            286 |                1.85
+ AZ                  |            272 |                1.81
+ Feyenoord           |            272 |                1.80
+ Juventus            |            301 |                1.80
+ KAA Gent            |            218 |                1.79
+ Bayer 04 Leverkusen |            272 |                1.78
+ Roma                |            303 |                1.75
+ Liverpool           |            304 |                1.75
+ SC Heerenveen       |            272 |                1.73
+ Atlético Madrid     |            304 |                1.72
+ Napoli              |            301 |                1.71
+ Legia Warszawa      |            240 |                1.70
+ VfL Wolfsburg       |            272 |                1.70
+(32 rows)
+

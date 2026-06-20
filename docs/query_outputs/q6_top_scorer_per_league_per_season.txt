@@ -1,0 +1,69 @@
+       league_name        |  season   |        player_name        | goals 
+--------------------------+-----------+---------------------------+-------
+ England Premier League   | 2008/2009 | Cristiano Ronaldo         |    20
+ England Premier League   | 2009/2010 | Didier Drogba             |    29
+ England Premier League   | 2010/2011 | Carlos Tevez              |    21
+ England Premier League   | 2011/2012 | Robin van Persie          |    31
+ England Premier League   | 2012/2013 | Robin van Persie          |    28
+ England Premier League   | 2013/2014 | Luis Suarez               |    32
+ England Premier League   | 2014/2015 | Sergio Aguero             |    27
+ England Premier League   | 2015/2016 | Harry Kane                |    26
+ France Ligue 1           | 2010/2011 | Kevin Gameiro             |    16
+ France Ligue 1           | 2011/2012 | Nene                      |    17
+ France Ligue 1           | 2012/2013 | Zlatan Ibrahimovic        |    30
+ France Ligue 1           | 2013/2014 | Zlatan Ibrahimovic        |    27
+ France Ligue 1           | 2014/2015 | Alexandre Lacazette       |    28
+ France Ligue 1           | 2015/2016 | Zlatan Ibrahimovic        |    41
+ Germany 1. Bundesliga    | 2008/2009 | Grafite                   |    28
+ Germany 1. Bundesliga    | 2009/2010 | Edin Dzeko                |    23
+ Germany 1. Bundesliga    | 2010/2011 | Mario Gomez               |    30
+ Germany 1. Bundesliga    | 2011/2012 | Klaas Jan Huntelaar       |    30
+ Germany 1. Bundesliga    | 2012/2013 | Robert Lewandowski        |    25
+ Germany 1. Bundesliga    | 2012/2013 | Stefan Kiessling          |    25
+ Germany 1. Bundesliga    | 2013/2014 | Robert Lewandowski        |    20
+ Germany 1. Bundesliga    | 2014/2015 | Pierre-Emerick Aubameyang |    20
+ Germany 1. Bundesliga    | 2014/2015 | Alexander Meier           |    20
+ Germany 1. Bundesliga    | 2015/2016 | Robert Lewandowski        |    31
+ Italy Serie A            | 2008/2009 | Diego Milito              |    27
+ Italy Serie A            | 2009/2010 | Antonio Di Natale         |    29
+ Italy Serie A            | 2010/2011 | Antonio Di Natale         |    30
+ Italy Serie A            | 2011/2012 | Zlatan Ibrahimovic        |    27
+ Italy Serie A            | 2012/2013 | Edinson Cavani            |    31
+ Italy Serie A            | 2013/2014 | Ciro Immobile             |    23
+ Italy Serie A            | 2014/2015 | Luca Toni                 |    24
+ Italy Serie A            | 2014/2015 | Mauro Icardi              |    24
+ Italy Serie A            | 2015/2016 | Gonzalo Higuain           |    36
+ Netherlands Eredivisie   | 2008/2009 | Erik Pieters              |     1
+ Netherlands Eredivisie   | 2008/2009 | Thomas Vermaelen          |     1
+ Netherlands Eredivisie   | 2008/2009 | Luis Suarez               |     1
+ Netherlands Eredivisie   | 2008/2009 | Miralem Sulejmani         |     1
+ Netherlands Eredivisie   | 2008/2009 | Santiago Leonardo         |     1
+ Netherlands Eredivisie   | 2008/2009 | Ibrahim Afellay           |     1
+ Netherlands Eredivisie   | 2008/2009 | Urby Emanuelson           |     1
+ Netherlands Eredivisie   | 2009/2010 | Luis Suarez               |     2
+ Netherlands Eredivisie   | 2009/2010 | Demy de Zeeuw             |     2
+ Netherlands Eredivisie   | 2009/2010 | Marko Pantelic            |     2
+ Netherlands Eredivisie   | 2009/2010 | Urby Emanuelson           |     2
+ Netherlands Eredivisie   | 2010/2011 | Siem de Jong              |     3
+ Netherlands Eredivisie   | 2011/2012 | John Guidetti             |     3
+ Netherlands Eredivisie   | 2014/2015 | Luuk de Jong              |    19
+ Netherlands Eredivisie   | 2015/2016 | Vincent Janssen           |    28
+ Netherlands Eredivisie   | 2015/2016 | Luuk de Jong              |    28
+ Poland Ekstraklasa       | 2011/2012 | Artjoms Rudnevs           |     3
+ Scotland Premier League  | 2008/2009 | Kenny Miller              |     2
+ Scotland Premier League  | 2009/2010 | Kenny Miller              |     3
+ Scotland Premier League  | 2010/2011 | Georgios Samaras          |     3
+ Scotland Premier League  | 2010/2011 | Gary Hooper               |     3
+ Scotland Premier League  | 2011/2012 | Steven Naismith           |     2
+ Spain LIGA BBVA          | 2008/2009 | Samuel Eto'o              |    33
+ Spain LIGA BBVA          | 2009/2010 | Lionel Messi              |    35
+ Spain LIGA BBVA          | 2010/2011 | Cristiano Ronaldo         |    40
+ Spain LIGA BBVA          | 2011/2012 | Lionel Messi              |    52
+ Spain LIGA BBVA          | 2012/2013 | Lionel Messi              |    46
+ Spain LIGA BBVA          | 2013/2014 | Cristiano Ronaldo         |    31
+ Spain LIGA BBVA          | 2013/2014 | Diego Costa               |    31
+ Spain LIGA BBVA          | 2014/2015 | Cristiano Ronaldo         |    51
+ Spain LIGA BBVA          | 2015/2016 | Luis Suarez               |    42
+ Switzerland Super League | 2015/2016 | Guillaume Hoarau          |    17
+(65 rows)
+

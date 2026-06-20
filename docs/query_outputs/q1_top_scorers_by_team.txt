@@ -1,0 +1,589 @@
+         team_name         |        player_name         | goals 
+---------------------------+----------------------------+-------
+ 1. FC Kaiserslautern      | Srdjan Lakic               |    17
+ 1. FC Kaiserslautern      | Ivo Ilicevic               |     6
+ 1. FC Kaiserslautern      | Christian Tiffert          |     5
+ 1. FC Köln                | Milivoje Novakovic         |    46
+ 1. FC Köln                | Lukas Podolski             |    33
+ 1. FC Köln                | Anthony Modeste            |    16
+ 1. FC Nürnberg            | Josip Drmic                |    17
+ 1. FC Nürnberg            | Tomas Pekhart              |    15
+ 1. FC Nürnberg            | Albert Bunjaku             |    13
+ 1. FSV Mainz 05           | Shinji Okazaki             |    27
+ 1. FSV Mainz 05           | Adam Szalai                |    23
+ 1. FSV Mainz 05           | Yunus Malli                |    22
+ AC Ajaccio                | Adrian Mutu                |    11
+ AC Ajaccio                | Eduardo                    |    11
+ AC Ajaccio                | Benjamin Andre             |     8
+ AC Arles-Avignon          | Remy Cabella               |     3
+ AC Arles-Avignon          | Deme N'Diaye               |     2
+ AC Arles-Avignon          | Yann Kermorgant            |     2
+ ADO Den Haag              | Mike Havenaar              |    16
+ ADO Den Haag              | Michiel Kramer             |     9
+ ADO Den Haag              | Roland Alberg              |     7
+ AJ Auxerre                | Dennis Oliech              |     7
+ AJ Auxerre                | Alain Traore               |     6
+ AJ Auxerre                | Dariusz Dudka              |     5
+ Ajax                      | Arkadiusz Milik            |    30
+ Ajax                      | Anwar El-Ghazi             |    18
+ Ajax                      | Davy Klaassen              |    18
+ Angers SCO                | Cheikh Ndoye               |     9
+ Angers SCO                | Thomas Mangani             |     7
+ Angers SCO                | Billy Ketkeophomphone      |     5
+ Arsenal                   | Robin van Persie           |    72
+ Arsenal                   | Olivier Giroud             |    58
+ Arsenal                   | Theo Walcott               |    51
+ AS Monaco                 | Bernardo Silva             |    16
+ AS Monaco                 | Dimitar Berbatov           |    13
+ AS Monaco                 | Radamel Falcao             |    12
+ AS Nancy-Lorraine         | Bakaye Traore              |     9
+ AS Nancy-Lorraine         | Sebastien Puygrenier       |     9
+ AS Nancy-Lorraine         | Benjamin Moukandjo         |     9
+ AS Saint-Étienne          | Max-Alain Gradel           |    33
+ AS Saint-Étienne          | Pierre-Emerick Aubameyang  |    33
+ AS Saint-Étienne          | Romain Hamouma             |    21
+ Aston Villa               | Gabriel Agbonlahor         |    53
+ Aston Villa               | Christian Benteke          |    46
+ Aston Villa               | John Carew                 |    24
+ Atalanta                  | German Denis               |    61
+ Atalanta                  | Maxi Moralez               |    19
+ Atalanta                  | Mauricio Pinilla           |    14
+ Athletic Club de Bilbao   | Fernando Llorente          |    72
+ Athletic Club de Bilbao   | Aritz Aduriz               |    72
+ Athletic Club de Bilbao   | Markel Susaeta             |    30
+ Atlético Madrid           | Diego Forlan               |    62
+ Atlético Madrid           | Radamel Falcao             |    53
+ Atlético Madrid           | Sergio Aguero              |    51
+ AZ                        | Vincent Janssen            |    28
+ AZ                        | Markus Henriksen           |    19
+ AZ                        | Aron Johannsson            |     9
+ Bari                      | Barreto                    |    23
+ Bari                      | Riccardo Meggiorini        |     5
+ Bari                      | Sergio Bernardo Almiron    |     5
+ Bayer 04 Leverkusen       | Stefan Kiessling           |   112
+ Bayer 04 Leverkusen       | Patrick Helmes             |    28
+ Bayer 04 Leverkusen       | Sidney Sam                 |    25
+ Birmingham City           | Cameron Jerome             |    14
+ Birmingham City           | Lee Bowyer                 |     9
+ Birmingham City           | Craig Gardner              |     9
+ Blackburn Rovers          | Jason Roberts              |    18
+ Blackburn Rovers          | Aiyegbeni Yakubu           |    18
+ Blackburn Rovers          | David Dunn                 |    16
+ Blackpool                 | Charlie Adam               |    14
+ Blackpool                 | Dudley Campbell            |    13
+ Blackpool                 | Gary Taylor-Fletcher       |     7
+ Bologna                   | Marco Di Vaio              |    68
+ Bologna                   | Alessandro Diamanti        |    20
+ Bologna                   | Alberto Gilardino          |    13
+ Bolton Wanderers          | Kevin Davies               |    39
+ Bolton Wanderers          | Matthew Taylor             |    22
+ Bolton Wanderers          | Ivan Klasnic               |    21
+ Borussia Dortmund         | Robert Lewandowski         |    75
+ Borussia Dortmund         | Pierre-Emerick Aubameyang  |    59
+ Borussia Dortmund         | Marco Reus                 |    50
+ Borussia Mönchengladbach  | Raffael                    |    39
+ Borussia Mönchengladbach  | Patrick Herrmann           |    36
+ Borussia Mönchengladbach  | Marco Reus                 |    36
+ Bournemouth               | Joshua King                |     6
+ Bournemouth               | Callum Wilson              |     5
+ Bournemouth               | Benik Afobe                |     4
+ Brescia                   | Andrea Caracciolo          |    13
+ Brescia                   | Alessandro Diamanti        |     6
+ Brescia                   | Davide Zoboli              |     2
+ BSC Young Boys            | Guillaume Hoarau           |    17
+ BSC Young Boys            | Alexander Gerndt           |     9
+ BSC Young Boys            | Yuya Kubo                  |     5
+ Burnley                   | Danny Ings                 |    11
+ Burnley                   | Steven Fletcher            |    10
+ Burnley                   | Graham Alexander           |     7
+ CA Osasuna                | Walter Pandiani            |    25
+ CA Osasuna                | Javad Nekounam             |    23
+ CA Osasuna                | Kike Sola                  |    16
+ Cagliari                  | Alessandro Matri           |    30
+ Cagliari                  | Daniele Conti              |    27
+ Cagliari                  | Marco Sau                  |    25
+ Cardiff City              | Jordon Mutch               |     7
+ Cardiff City              | Fraizer Campbell           |     6
+ Cardiff City              | Steven Caulker             |     5
+ Carpi                     | Kevin Lasagna              |     5
+ Carpi                     | Marco Borriello            |     4
+ Carpi                     | Jerry Uche Mbakogu         |     4
+ Catania                   | Gonzalo Bergessio          |    35
+ Catania                   | Giuseppe Mascara           |    24
+ Catania                   | Maxi Lopez                 |    22
+ CD Numancia               | Jose Javier Barkero        |    13
+ CD Numancia               | Carlos Reina Aranda        |     6
+ CD Numancia               | Javier Del Pino            |     5
+ CD Tenerife               | Nino                       |    16
+ CD Tenerife               | Alejandro Alfaro           |     7
+ CD Tenerife               | Roman Martinez             |     5
+ Celtic                    | Gary Hooper                |     4
+ Celtic                    | Georgios Samaras           |     4
+ Celtic                    | Scott McDonald             |     2
+ Cesena                    | Adrian Mutu                |    10
+ Cesena                    | Gregoire Defrel            |     9
+ Cesena                    | Luis Jimenez               |     9
+ Chelsea                   | Frank Lampard              |    83
+ Chelsea                   | Didier Drogba              |    56
+ Chelsea                   | Eden Hazard                |    42
+ Chievo Verona             | Sergio Pellissier          |    62
+ Chievo Verona             | Alberto Paloschi           |    47
+ Chievo Verona             | Cyril Thereau              |    28
+ Córdoba CF                | Nabil Ghilas               |     7
+ Córdoba CF                | Florin Andone              |     6
+ Córdoba CF                | Federico Nicolas Cartabia  |     5
+ Crystal Palace            | Jason Puncheon             |    16
+ Crystal Palace            | Dwight Gayle               |    15
+ Crystal Palace            | Yannick Bolasie            |     9
+ De Graafschap             | Vincent Vermeij            |     9
+ De Graafschap             | Cas Peters                 |     6
+ De Graafschap             | Andrew Driver              |     4
+ Dijon FCO                 | Brice Jovial               |     6
+ Dijon FCO                 | Benjamin Corgnet           |     4
+ Dijon FCO                 | Gael Kakuta                |     4
+ DSC Arminia Bielefeld     | Artur Wichniarek           |    14
+ DSC Arminia Bielefeld     | Chris Katongo,30           |     3
+ DSC Arminia Bielefeld     | Vlad Munteanu              |     2
+ Eintracht Braunschweig    | Dominik Kumbela            |     9
+ Eintracht Braunschweig    | Jan Hochscheidt            |     4
+ Eintracht Braunschweig    | Karim Bellarabi            |     3
+ Eintracht Frankfurt       | Alexander Meier            |    71
+ Eintracht Frankfurt       | Stefan Aigner              |    25
+ Eintracht Frankfurt       | Marco Russ                 |    21
+ Elche CF                  | Jonathas                   |    15
+ Elche CF                  | David Lomban               |     7
+ Elche CF                  | Ferran Corominas           |     6
+ Empoli                    | Massimo Maccarone          |    25
+ Empoli                    | Riccardo Saponara          |    13
+ Empoli                    | Manuel Pucciarelli         |    12
+ En Avant de Guingamp      | Claudio Beauvue            |    22
+ En Avant de Guingamp      | Christophe Mandanne        |    12
+ En Avant de Guingamp      | Mustapha Yatabare          |    11
+ ES Troyes AC              | Benjamin Nivet             |    14
+ ES Troyes AC              | Fabien Camus               |    12
+ ES Troyes AC              | Corentin Jean              |     7
+ Everton                   | Romelu Lukaku              |    46
+ Everton                   | Louis Saha                 |    29
+ Everton                   | Leighton Baines            |    28
+ Évian Thonon Gaillard FC  | Daniel Wass                |    24
+ Évian Thonon Gaillard FC  | Cedric Barbosa             |    19
+ Évian Thonon Gaillard FC  | Kevin Berigaud             |    19
+ Excelsior                 | Tom van Weert              |    21
+ Excelsior                 | Jeff Stans                 |    12
+ Excelsior                 | Kevin Vermeulen            |     4
+ FC Augsburg               | Tobias Werner              |    25
+ FC Augsburg               | Sascha Moelders            |    20
+ FC Augsburg               | Paul Verhaegh              |    18
+ FC Barcelona              | Lionel Messi               |   295
+ FC Barcelona              | Pedro Rodriguez            |    59
+ FC Barcelona              | Luis Suarez                |    59
+ FC Basel                  | Birkir Bjarnason           |     8
+ FC Basel                  | Matias Emilio Delgado      |     7
+ FC Basel                  | Renato Steffen             |     7
+ FC Bayern Munich          | Thomas Mueller             |    94
+ FC Bayern Munich          | Arjen Robben               |    79
+ FC Bayern Munich          | Mario Gomez                |    78
+ FC Dordrecht              | Jeffry Fortes,30           |     3
+ FC Dordrecht              | Sean Klaiber               |     2
+ FC Dordrecht              | Everon Pisas               |     2
+ FC Energie Cottbus        | Dimitar Rangelov           |     9
+ FC Energie Cottbus        | Emil Gabriel Jula          |     4
+ FC Energie Cottbus        | Branko Jelic               |     3
+ FC Groningen              | Michael de Leeuw           |    21
+ FC Groningen              | Tjaronn Chery              |    12
+ FC Groningen              | Albert Rusnak              |     8
+ FC Ingolstadt 04          | Moritz Hartmann            |    12
+ FC Ingolstadt 04          | Lukas Hinterseer           |     8
+ FC Ingolstadt 04          | Matthew Leckie             |     4
+ FC Lorient                | Jeremie Aliadiere          |    23
+ FC Lorient                | Vincent Aboubakar          |    17
+ FC Lorient                | Kevin Gameiro              |    16
+ FC Luzern                 | Marco Schneuwly            |    11
+ FC Luzern                 | Markus Neumayr             |     5
+ FC Luzern                 | Jakob Jantscher            |     5
+ FC Metz                   | Modibo Maiga               |    10
+ FC Metz                   | Yeni N'Gbakoto             |     5
+ FC Metz                   | Juan Falcon                |     5
+ FC Nantes                 | Serge Gakpe                |    12
+ FC Nantes                 | Alejandro Bedoya           |    11
+ FC Nantes                 | Filip Djordjevic           |    11
+ FC Schalke 04             | Klaas Jan Huntelaar        |    88
+ FC Schalke 04             | Jefferson Farfan           |    40
+ FC Schalke 04             | Kevin Kuranyi              |    32
+ FC Sion                   | Theofanis Gekas            |     9
+ FC Sion                   | Geoffrey Mujangi Bia       |     5
+ FC Sion                   | Moussa Konate              |     5
+ FC Sochaux-Montbéliard    | Cedric Bakambu             |    15
+ FC Sochaux-Montbéliard    | Modibo Maiga               |    15
+ FC Sochaux-Montbéliard    | Ryad Boudebouz             |    13
+ FC St. Gallen             | Danijel Aleksic            |     9
+ FC St. Gallen             | Edgar Salli                |     5
+ FC St. Gallen             | Marco Aratore              |     3
+ FC St. Pauli              | Gerald Asamoah             |     6
+ FC St. Pauli              | Matthias Lehmann           |     5
+ FC St. Pauli              | Charles Takyi              |     4
+ FC Thun                   | Ridge Munsy                |     7
+ FC Thun                   | Simone Rapp                |     4
+ FC Thun                   | Roman Buess                |     4
+ FC Twente                 | Hakim Ziyech               |    27
+ FC Twente                 | Jerson Cabral              |     7
+ FC Twente                 | Jesus Corona               |     7
+ FC Utrecht                | Sebastien Haller           |    28
+ FC Utrecht                | Ruud Boymans               |    14
+ FC Utrecht                | Nacer Barazite             |     9
+ FC Vaduz                  | Armando Sadiku             |     7
+ FC Vaduz                  | Moreno Costanzo            |     4
+ FC Vaduz                  | Dejan Janjatovic           |     3
+ FC Zürich                 | Alexandr Kerzhakov         |     5
+ FC Zürich                 | Oliver Buff                |     4
+ FC Zürich                 | Kevin Bua                  |     4
+ Feyenoord                 | Dirk Kuyt                  |    19
+ Feyenoord                 | Michiel Kramer             |    15
+ Feyenoord                 | Colin Kazim-Richards       |    10
+ Fiorentina                | Alberto Gilardino          |    54
+ Fiorentina                | Stevan Jovetic             |    37
+ Fiorentina                | Gonzalo Rodriguez          |    25
+ Fortuna Düsseldorf        | Dani Schahin               |     9
+ Fortuna Düsseldorf        | Stefan Reisinger           |     7
+ Fortuna Düsseldorf        | Robbie Kruse               |     4
+ Frosinone                 | Daniel Ciofani             |     9
+ Frosinone                 | Federico Dionisi           |     9
+ Frosinone                 | Paolo Sammarco             |     4
+ Fulham                    | Clint Dempsey              |    46
+ Fulham                    | Bobby Zamora               |    20
+ Fulham                    | Dimitar Berbatov           |    20
+ Genoa                     | Rodrigo Palacio            |    36
+ Genoa                     | Diego Milito               |    27
+ Genoa                     | Alberto Gilardino          |    22
+ Getafe CF                 | Roberto Soldado            |    29
+ Getafe CF                 | Miku                       |    26
+ Getafe CF                 | Pedro Leon                 |    24
+ GFC Ajaccio               | Mohamed Larbi              |     9
+ GFC Ajaccio               | Khalid Boutaib             |     6
+ GFC Ajaccio               | Gregory Pujol              |     5
+ Girondins de Bordeaux     | Cheick Diabate             |    47
+ Girondins de Bordeaux     | Diego Rolan                |    24
+ Girondins de Bordeaux     | Yoan Gouffran              |    21
+ Go Ahead Eagles           | Alex Schalk                |     3
+ Go Ahead Eagles           | Wesley Verhoek             |     3
+ Go Ahead Eagles           | Jules Reimerink            |     2
+ Granada CF                | Youssef El Arabi           |    46
+ Granada CF                | Guilherme Siqueira         |    12
+ Granada CF                | Odion Ighalo               |    12
+ Grasshopper Club Zürich   | Munas Dabbur               |     9
+ Grasshopper Club Zürich   | Caio                       |     5
+ Grasshopper Club Zürich   | Shani Tarashaj             |     4
+ Hamburger SV              | Mladen Petric              |    38
+ Hamburger SV              | Pierre-Michel Lasogga      |    25
+ Hamburger SV              | Jose Paolo Guerrero        |    24
+ Hannover 96               | Didier Konan Ya            |    40
+ Hannover 96               | Mohammed Abdellaoue        |    29
+ Hannover 96               | Mame Biram Diouf           |    26
+ Hellas Verona             | Luca Toni                  |    52
+ Hellas Verona             | Juan Gomez                 |    13
+ Hellas Verona             | Juan Manuel Iturbe         |     8
+ Heracles Almelo           | Wouter Weghorst            |    17
+ Heracles Almelo           | Thomas Bruns               |    12
+ Heracles Almelo           | Oussama Tannane            |    10
+ Hércules Club de Fútbol   | David Trezeguet            |    13
+ Hércules Club de Fútbol   | Nelson Haedo Valdez        |     8
+ Hércules Club de Fútbol   | Royston Drenthe            |     4
+ Hertha BSC Berlin         | Adrian Ramos               |    33
+ Hertha BSC Berlin         | Salomon Kalou              |    20
+ Hertha BSC Berlin         | Raffael                    |    19
+ Hull City                 | Nikica Jelavic             |    14
+ Hull City                 | Geovanni                   |    12
+ Hull City                 | Kamil Zayatte              |     7
+ Inter                     | Diego Milito               |    64
+ Inter                     | Mauro Icardi               |    50
+ Inter                     | Rodrigo Palacio            |    40
+ Juventus                  | Carlos Tevez               |    40
+ Juventus                  | Arturo Vidal               |    38
+ Juventus                  | Alessandro Del Piero       |    33
+ Karlsruher SC             | Sebastian Freis            |     9
+ Karlsruher SC             | Lars Stindl                |     4
+ Karlsruher SC             | Alexander Iashvili         |     3
+ Lazio                     | Miroslav Klose             |    53
+ Lazio                     | Antonio Candreva           |    44
+ Lazio                     | Hernanes                   |    33
+ Lecce                     | David Di Michele           |    21
+ Lecce                     | Simone Tiribocchi          |    12
+ Lecce                     | Guillermo Giacomazzi       |     9
+ Lech Poznań               | Artjoms Rudnevs            |     3
+ Legia Warszawa            | Danijel Ljuboja            |     1
+ Legia Warszawa            | Ariel Borysiuk             |     1
+ Legia Warszawa            | Ivica Vrdoljak             |     1
+ Leicester City            | Jamie Vardy                |    30
+ Leicester City            | Riyad Mahrez               |    23
+ Leicester City            | Jose Leonardo Ulloa        |    17
+ Levante UD                | David Barral               |    19
+ Levante UD                | Arouna Kone                |    15
+ Levante UD                | Ruben Suarez               |    14
+ Liverpool                 | Luis Suarez                |    74
+ Liverpool                 | Steven Gerrard             |    71
+ Liverpool                 | Daniel Sturridge           |    44
+ Livorno                   | Paulinho                   |    15
+ Livorno                   | Cristiano Lucarelli        |    10
+ Livorno                   | Tomas Danilevicius         |     5
+ LOSC Lille                | Salomon Kalou              |    32
+ LOSC Lille                | Nolan Roux                 |    31
+ LOSC Lille                | Eden Hazard                |    21
+ Lugano                    | Anastasios Donis           |     5
+ Lugano                    | Mattia Bottani             |     5
+ Lugano                    | Antonini Culina            |     4
+ Málaga CF                 | Jose Salomon Rondon        |    25
+ Málaga CF                 | Duda                       |    23
+ Málaga CF                 | Juanmi                     |    21
+ Manchester City           | Sergio Aguero              |   105
+ Manchester City           | Carlos Tevez               |    60
+ Manchester City           | Yaya Toure                 |    57
+ Manchester United         | Wayne Rooney               |   135
+ Manchester United         | Dimitar Berbatov           |    53
+ Manchester United         | Robin van Persie           |    52
+ Middlesbrough             | Tuncay Sanli               |     9
+ Middlesbrough             | Afonso Alves,24            |     5
+ Middlesbrough             | Mido                       |     4
+ Milan                     | Alexandre Pato             |    45
+ Milan                     | Zlatan Ibrahimovic         |    43
+ Milan                     | Mario Balotelli            |    29
+ Montpellier Hérault SC    | Souleymane Camara          |    33
+ Montpellier Hérault SC    | Remy Cabella               |    24
+ Montpellier Hérault SC    | Olivier Giroud             |    20
+ N.E.C.                    | Christian Santos           |    18
+ N.E.C.                    | Anthony Limbombe           |     7
+ N.E.C.                    | Navarone Foor              |     4
+ NAC Breda                 | Adnane Tighadouini         |     9
+ NAC Breda                 | Erik Falkenburg            |     4
+ NAC Breda                 | Guyon Fernandez            |     2
+ Napoli                    | Edinson Cavani             |    85
+ Napoli                    | Gonzalo Higuain            |    74
+ Napoli                    | Marek Hamsik               |    62
+ Newcastle United          | Papiss Cisse               |    41
+ Newcastle United          | Demba Ba                   |    32
+ Newcastle United          | Yohan Cabaye               |    17
+ Norwich City              | Grant Holt                 |    24
+ Norwich City              | Anthony Pilkington         |    14
+ Norwich City              | Robert Snodgrass           |    13
+ Novara                    | Marco Rigoni               |    12
+ Novara                    | Takayuki Morimoto          |     4
+ Novara                    | Giuseppe Mascara           |     3
+ OGC Nice                  | Dario Cvitanich            |    31
+ OGC Nice                  | Eric Bautheac              |    21
+ OGC Nice                  | Hatem Ben Arfa             |    17
+ Olympique de Marseille    | Andre-Pierre Gignac        |    58
+ Olympique de Marseille    | Andre Ayew                 |    37
+ Olympique de Marseille    | Michy Batshuayi            |    27
+ Olympique Lyonnais        | Alexandre Lacazette        |    73
+ Olympique Lyonnais        | Bafetimbi Gomis            |    42
+ Olympique Lyonnais        | Lisandro Lopez             |    38
+ P. Warszawa               | Pavel Sultes               |     1
+ Palermo                   | Fabrizio Miccoli           |    68
+ Palermo                   | Edinson Cavani             |    28
+ Palermo                   | Josip Ilicic               |    21
+ Paris Saint-Germain       | Zlatan Ibrahimovic         |   120
+ Paris Saint-Germain       | Edinson Cavani             |    55
+ Paris Saint-Germain       | Nene                       |    24
+ Parma                     | Amauri                     |    26
+ Parma                     | Sebastian Giovinco         |    22
+ Parma                     | Jonathan Biabiany          |    20
+ PEC Zwolle                | Lars Veldwijk              |    16
+ PEC Zwolle                | Stefan Nijland             |    16
+ PEC Zwolle                | Tomas Necid                |     7
+ Pescara                   | Vladimir Weiss             |     4
+ Pescara                   | Mervan Celik               |     4
+ Pescara                   | Elvis Abbruscato           |     3
+ Portsmouth                | Peter Crouch               |    10
+ Portsmouth                | Jermain Defoe              |     9
+ Portsmouth                | Aruna Dindane              |     9
+ PSV                       | Luuk de Jong               |    47
+ PSV                       | Memphis Depay              |    17
+ PSV                       | Georginio Wijnaldum        |    12
+ Queens Park Rangers       | Charlie Austin             |    21
+ Queens Park Rangers       | Djibril Cisse              |    10
+ Queens Park Rangers       | Bobby Zamora               |     9
+ Racing Santander          | Mohammed Tchite            |    19
+ Racing Santander          | Nikola Zigic               |    13
+ Racing Santander          | Markus Rosenberg           |    10
+ Rangers                   | Kenny Miller               |     7
+ Rangers                   | Steven Naismith            |     2
+ Rangers                   | Lee McCulloch              |     1
+ Rayo Vallecano            | Alberto Bueno              |    29
+ Rayo Vallecano            | Piti                       |    21
+ Rayo Vallecano            | Michu                      |    15
+ RC Celta de Vigo          | Nolito                     |    41
+ RC Celta de Vigo          | Iago Aspas                 |    26
+ RC Celta de Vigo          | Fabian Orellana            |    18
+ RC Deportivo de La Coruña | Ivan Sanchez Riki          |    32
+ RC Deportivo de La Coruña | Lucas Perez                |    25
+ RC Deportivo de La Coruña | Lassad Nouioui             |    12
+ RC Lens                   | Yoann Touzghar             |     8
+ RC Lens                   | Pablo Chavarria            |     7
+ RC Lens                   | Adamo Coulibaly            |     5
+ RC Recreativo             | Javier Camunas             |    10
+ RC Recreativo             | Adrian Colunga             |     9
+ RC Recreativo             | Ersen Martin               |     3
+ RCD Espanyol              | Sergio Garcia              |    42
+ RCD Espanyol              | Cristian Stuani            |    27
+ RCD Espanyol              | Joan Verdu                 |    23
+ RCD Mallorca              | Victor Casadesus           |    26
+ RCD Mallorca              | Gonzalo Castro             |    24
+ RCD Mallorca              | Aritz Aduriz               |    24
+ Reading                   | Adam Le Fondre             |    12
+ Reading                   | Hal Robson-Kanu            |     7
+ Reading                   | Jimmy Kebe                 |     5
+ Real Betis Balompié       | Ruben Castro               |    67
+ Real Betis Balompié       | Jorge Molina               |    30
+ Real Betis Balompié       | Achille Emana              |    11
+ Real Madrid CF            | Cristiano Ronaldo          |   270
+ Real Madrid CF            | Karim Benzema              |   113
+ Real Madrid CF            | Gonzalo Higuain            |   100
+ Real Sociedad             | Imanol Agirretxe           |    57
+ Real Sociedad             | Carlos Vela                |    56
+ Real Sociedad             | Antoine Griezmann          |    41
+ Real Sporting de Gijón    | David Barral               |    28
+ Real Sporting de Gijón    | Diego Castro               |    25
+ Real Sporting de Gijón    | Mate Bilic                 |    22
+ Real Valladolid           | Javi Guerra                |    23
+ Real Valladolid           | Manucho                    |    16
+ Real Valladolid           | Oscar Gonzalez             |    13
+ Real Zaragoza             | Helder Postiga             |    23
+ Real Zaragoza             | Antonio Apono              |    14
+ Real Zaragoza             | Gabi                       |    12
+ Reggio Calabria           | Bernardo Corradi           |    10
+ Reggio Calabria           | Franco Brienza             |     6
+ Reggio Calabria           | Francesco Cozza            |     4
+ Roda JC Kerkrade          | Tom van Hyfte              |     8
+ Roda JC Kerkrade          | Rydell Poepon              |     5
+ Roda JC Kerkrade          | Tomi Juric                 |     5
+ Roma                      | Francesco Totti            |    86
+ Roma                      | Mirko Vucinic              |    35
+ Roma                      | Pablo Osvaldo              |    29
+ Ruch Chorzów              | Piotr Stawarczyk           |     1
+ Sampdoria                 | Giampaolo Pazzini          |    36
+ Sampdoria                 | Antonio Cassano            |    27
+ Sampdoria                 | Roberto Soriano            |    17
+ Sassuolo                  | Domenico Berardi           |    41
+ Sassuolo                  | Simone Zaza                |    21
+ Sassuolo                  | Nicola Sansone             |    17
+ SC Bastia                 | Anthony Modeste            |    15
+ SC Bastia                 | Floyd Ayite                |    14
+ SC Bastia                 | Wahbi Khazri               |    13
+ SC Cambuur                | Bartholomew Ogbeche        |    16
+ SC Cambuur                | Sander van de Streek       |     9
+ SC Cambuur                | Martijn Barto              |     8
+ SC Freiburg               | Papiss Cisse               |    41
+ SC Freiburg               | Jonathan Schmid            |    21
+ SC Freiburg               | Admir Mehmedi              |    17
+ SC Heerenveen             | Luciano Slagveer           |    16
+ SC Heerenveen             | Sam Larsson                |    13
+ SC Heerenveen             | Mitchell te Vrede          |    11
+ SC Paderborn 07           | Elias Kachunga             |     7
+ SC Paderborn 07           | Moritz Stoppelkamp         |     4
+ SC Paderborn 07           | Lukas Rupp                 |     4
+ SD Eibar                  | Borja Baston               |    18
+ SD Eibar                  | Mikel Arruabarrena         |    11
+ SD Eibar                  | Sergi Enrich               |     9
+ Sevilla FC                | Alvaro Negredo             |    73
+ Sevilla FC                | Frederic Kanoute           |    49
+ Sevilla FC                | Kevin Gameiro              |    40
+ Siena                     | Emanuele Calaio            |    27
+ Siena                     | Massimo Maccarone          |    22
+ Siena                     | Mattia Destro              |    12
+ SM Caen                   | Andy Delort                |    13
+ SM Caen                   | Sylvio Ronny Rodelin       |    11
+ SM Caen                   | Romain Hamouma             |    10
+ Southampton               | Rickie Lambert             |    29
+ Southampton               | Jay Rodriguez              |    24
+ Southampton               | Graziano Pelle             |    23
+ SpVgg Greuther Fürth      | Nikola Djurdjic            |     5
+ SpVgg Greuther Fürth      | Edgar Prib                 |     4
+ SpVgg Greuther Fürth      | Zoltan Stieber             |     3
+ Stade Brestois 29         | Bruno Grougi               |    15
+ Stade Brestois 29         | Eden Ben Basat             |    11
+ Stade Brestois 29         | Jonathan Ayite             |     6
+ Stade de Reims            | Prince Oniangue            |    18
+ Stade de Reims            | Aissa Mandi                |    15
+ Stade de Reims            | Gaetan Charbonnier         |    15
+ Stade Rennais FC          | Paul-Georges Ntep          |    18
+ Stade Rennais FC          | Ola Toivonen               |    16
+ Stade Rennais FC          | Romain Alessandrini        |    16
+ Stoke City                | Jonathan Walters           |    46
+ Stoke City                | Peter Crouch               |    35
+ Stoke City                | Ricardo Fuller             |    22
+ Sunderland                | Darren Bent                |    36
+ Sunderland                | Steven Fletcher            |    24
+ Sunderland                | Kenwyne Jones              |    21
+ SV Darmstadt 98           | Sandro Wagner              |    17
+ SV Darmstadt 98           | Aytac Sulu                 |     9
+ SV Darmstadt 98           | Marcel Heller              |     6
+ SV Werder Bremen          | Claudio Pizarro            |    76
+ SV Werder Bremen          | Aaron Hunt                 |    36
+ SV Werder Bremen          | Hugo Almeida               |    25
+ Swansea City              | Gylfi Sigurdsson           |    25
+ Swansea City              | Wilfried Bony              |    25
+ Swansea City              | Michu                      |    21
+ Torino                    | Ciro Immobile              |    30
+ Torino                    | Alessio Cerci              |    23
+ Torino                    | Rolando Bianchi            |    21
+ Tottenham Hotspur         | Harry Kane                 |    54
+ Tottenham Hotspur         | Jermain Defoe              |    52
+ Tottenham Hotspur         | Gareth Bale                |    41
+ Toulouse FC               | Wissam Ben Yedder          |    68
+ Toulouse FC               | Martin Braithwaite         |    26
+ Toulouse FC               | Oscar Trejo                |    10
+ TSG 1899 Hoffenheim       | Sejad Salihovic            |    47
+ TSG 1899 Hoffenheim       | Vedad Ibisevic             |    43
+ TSG 1899 Hoffenheim       | Roberto Firmino            |    40
+ UD Almería                | Kalu Uche                  |    25
+ UD Almería                | Pablo Piatti               |    20
+ UD Almería                | Alvaro Negredo             |    19
+ UD Las Palmas             | Jonathan Viera             |    11
+ UD Las Palmas             | Willian Jose               |     9
+ UD Las Palmas             | Sergio Ezequiel Araujo     |     5
+ Udinese                   | Antonio Di Natale          |   156
+ Udinese                   | Antonio Floro Flores       |    24
+ Udinese                   | Cyril Thereau              |    24
+ Valencia CF               | Roberto Soldado            |    60
+ Valencia CF               | David Villa                |    52
+ Valencia CF               | Jonas                      |    36
+ Valenciennes FC           | Gregory Pujol              |    23
+ Valenciennes FC           | Gael Danic                 |    15
+ Valenciennes FC           | Foued Kadir                |    13
+ VfB Stuttgart             | Martin Harnik              |    54
+ VfB Stuttgart             | Cacau                      |    42
+ VfB Stuttgart             | Vedad Ibisevic             |    36
+ VfL Bochum                | Stanislav Sestak           |    15
+ VfL Bochum                | Diego Klimowicz            |     8
+ VfL Bochum                | Christoph Dabrowski        |     7
+ VfL Wolfsburg             | Edin Dzeko                 |    60
+ VfL Wolfsburg             | Grafite                    |    51
+ VfL Wolfsburg             | Bas Dost                   |    37
+ Villarreal CF             | Giuseppe Rossi             |    45
+ Villarreal CF             | Nilmar                     |    25
+ Villarreal CF             | Joseba Llorente            |    24
+ Vitesse                   | Valeri Kazaishvili         |    16
+ Vitesse                   | Bertrand Traore            |    12
+ Vitesse                   | Milot Rashica              |     8
+ Watford                   | Odion Ighalo               |    16
+ Watford                   | Troy Deeney                |    15
+ Watford                   | Sebastian Proedl           |     2
+ West Bromwich Albion      | Peter Odemwingie           |    33
+ West Bromwich Albion      | Saido Berahino             |    26
+ West Bromwich Albion      | Chris Brunt                |    24
+ West Ham United           | Carlton Cole               |    38
+ West Ham United           | Mark Noble                 |    29
+ West Ham United           | Andy Carroll               |    23
+ Wigan Athletic            | Hugo Rodallega             |    26
+ Wigan Athletic            | Charles N'Zogbia           |    15
+ Wigan Athletic            | Franco Di Santo            |    14
+ Willem II                 | Erik Falkenburg            |    11
+ Willem II                 | Samuel Armenteros          |     7
+ Willem II                 | Lucas Andersen             |     6
+ Wolverhampton Wanderers   | Steven Fletcher            |    22
+ Wolverhampton Wanderers   | Kevin Doyle                |    20
+ Wolverhampton Wanderers   | Matt Jarvis                |    15
+ Xerez Club Deportivo      | Mario Bermejo              |    12
+ Xerez Club Deportivo      | Carlos Calvo               |     4
+ Xerez Club Deportivo      | Emiliano Daniel Armenteros |     4
+(585 rows)
+

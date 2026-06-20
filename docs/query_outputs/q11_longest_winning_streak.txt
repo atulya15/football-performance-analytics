@@ -1,0 +1,24 @@
+       team_name       | longest_win_streak 
+-----------------------+--------------------
+ FC Bayern Munich      |                 19
+ Celtic                |                 17
+ FC Porto              |                 16
+ FC Barcelona          |                 16
+ Juventus              |                 15
+ Ajax                  |                 14
+ Girondins de Bordeaux |                 14
+ SC Braga              |                 13
+ Paris Saint-Germain   |                 13
+ FC Twente             |                 12
+ Real Madrid CF        |                 12
+ SL Benfica            |                 12
+ AZ                    |                 11
+ PSV                   |                 11
+ Chelsea               |                 11
+ Manchester City       |                 11
+ Liverpool             |                 11
+ Manchester United     |                 11
+ Roma                  |                 11
+ RSC Anderlecht        |                 11
+(20 rows)
+
