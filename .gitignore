@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+.Python
+*.so
+
+# Data files (raw dataset, never commit)
+data/
+*.sqlite
+*.sqlite3
+*.db
+*.csv
+*.zip
+
+# Secrets / credentials
+.env
+.env.*
+kaggle.json
+access_token
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
