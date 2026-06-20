@@ -207,6 +207,29 @@ after the fix.
   their remaining fixtures were voided. The data is correctly reflecting a
   real event, not a loading error.
 
+## Schema diagram
+
+![Schema diagram](docs/schema_diagram.png)
+
+Generated from the live schema by [`scripts/generate_schema_diagram.py`](scripts/generate_schema_diagram.py)
+(pure matplotlib, no external graphviz dependency).
+
+## Visualizations
+
+Generated from the live database by [`scripts/generate_visualizations.py`](scripts/generate_visualizations.py)
+— real numbers, not mockups.
+
+| | |
+|---|---|
+| ![Top 10 scorers](docs/visualizations/top_10_scorers_alltime.png) | ![Home vs away outcomes](docs/visualizations/home_away_outcome_split.png) |
+| ![Goals per match by season](docs/visualizations/goals_per_match_by_season.png) | ![Longest winning streaks](docs/visualizations/top_10_winning_streaks.png) |
+
+Goals-per-match has crept up nearly every season (2.61 → 2.77 between
+2008/09 and 2013/14) before dipping in 2014/15 and partially recovering —
+consistent with the broader trend of increasingly attacking play in this
+period across Europe's top leagues, though 8 seasons is too short a window
+to call it a definitive trend rather than noise.
+
 ## Repo structure
 
 ```
@@ -215,10 +238,13 @@ football-performance-analytics/
 ├── schema.sql              # Postgres schema (8 tables)
 ├── queries.sql              # All 12 analysis queries, commented
 ├── scripts/
-│   ├── parse_events.py      # XML goal/card blob parser -> staging CSV
-│   └── load_data.py         # SQLite -> Postgres loader
+│   ├── parse_events.py              # XML goal/card blob parser -> staging CSV
+│   ├── load_data.py                 # SQLite -> Postgres loader
+│   ├── generate_schema_diagram.py   # ER diagram generator
+│   └── generate_visualizations.py   # Chart generator
 ├── docs/
 │   ├── schema_diagram.png
+│   ├── visualizations/      # Generated charts
 │   ├── query_outputs/       # Real captured output per query
 │   └── screenshots/
 ├── data/                     # gitignored — raw SQLite dataset + staging CSV
@@ -255,5 +281,4 @@ CREATE INDEX idx_matches_teams ON matches(home_team_id, away_team_id);
 
 ## Next steps
 
-- Schema diagram (`docs/schema_diagram.png`)
-- GitHub polish / repo description, topics, badges
+- Repo topics/tags, social-preview image
