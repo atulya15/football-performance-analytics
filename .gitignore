@@ -26,6 +26,9 @@ access_token
 *.pem
 *.key
 
+# Claude Code local settings (contains locally-approved permissions, may include secrets)
+.claude/
+
 # OS / editor
 .DS_Store
 Thumbs.db
