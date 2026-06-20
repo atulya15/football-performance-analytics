@@ -169,45 +169,92 @@ ORDER BY l.league_name, r.season;
 
 
 -- ============================================================
--- Q7: Most Efficient Players (Goals per Appearance)
--- Business Question: Which players score most efficiently?
--- SQL Concepts: CTE, aggregation, ratio metric, minimum-sample filter
--- NOTE — deliberate redefinition: this is goals PER MATCH APPEARANCE,
---   not goals per 90 minutes. The source Match table has no per-match
---   minutes-played field for individual players, so a true "per-90"
---   metric isn't computable from this dataset.
--- NOTE — second limitation, found while building this query: the 115
---   player lineup/position columns (home_player_1..11, etc.) were
---   dropped in Phase 4 as out of scope, which means there is no direct
---   "did this player appear in this match" table either. "Appearance"
---   here is therefore approximated as "a distinct match in which the
---   player has at least one recorded goal or card event" — this
---   UNDERCOUNTS true appearances (a player who played 90 minutes with
---   no goal/card has zero recorded events and isn't counted at all),
---   so goals-per-appearance here is a biased-high estimate of true
---   scoring efficiency. Flagging this explicitly rather than presenting
---   it as a precise rate stat.
+-- Q7: Player's Share of Team Goals Per Season
+-- Business Question: What percentage of their team's total season goals
+--                     did each player contribute?
+-- SQL Concepts: correlated subquery AND window function — written both
+--               ways to demonstrate the tradeoff.
+--
+--   Correlated subquery version: for every output row, the subquery
+--   re-scans match_events/matches and re-aggregates the team's season
+--   goal total from scratch. That's O(rows * scan) work — the same
+--   team/season total gets recomputed once per player on that team.
+--
+--   Window function version: SUM(player_goals) OVER (PARTITION BY
+--   team_id, season) computes each team/season total exactly once,
+--   then broadcasts it to every row in that partition. One aggregation
+--   pass over the grouped data instead of N re-aggregations.
+--
+--   The window function version is more efficient and is what should be
+--   used in practice; the correlated subquery is included for
+--   side-by-side comparison since both are common interview asks.
+--
+--   Both versions filter to player_id IS NOT NULL goals when computing
+--   team_total_goals, so "share of team goals" is share of *attributed*
+--   goals, not literal team goals from the matches table (a small number
+--   of parsed goal events have no resolvable player_id — see Phase 3.5/4
+--   notes — and can't be meaningfully assigned a "player's share").
 -- ============================================================
-WITH player_appearances AS (
-    SELECT player_id, COUNT(DISTINCT match_id) AS appearances
-    FROM match_events
-    WHERE player_id IS NOT NULL
-    GROUP BY player_id
-),
-player_goals AS (
-    SELECT player_id, COUNT(*) AS goals
-    FROM match_events
-    WHERE event_type = 'goal' AND player_id IS NOT NULL
-    GROUP BY player_id
-)
-SELECT p.player_name, pg.goals, pa.appearances,
-    ROUND(pg.goals::numeric / pa.appearances, 3) AS goals_per_appearance
-FROM player_goals pg
-JOIN player_appearances pa ON pa.player_id = pg.player_id
+
+-- Version A: correlated subquery
+SELECT
+    pg.player_id, p.player_name, pg.team_id, t.team_name, pg.season,
+    pg.player_goals,
+    (
+        SELECT COUNT(*)
+        FROM match_events e2
+        JOIN matches m2 ON m2.match_id = e2.match_id
+        WHERE e2.team_id = pg.team_id
+          AND e2.event_type = 'goal'
+          AND e2.player_id IS NOT NULL
+          AND m2.season = pg.season
+    ) AS team_total_goals,
+    ROUND(
+        100.0 * pg.player_goals / (
+            SELECT COUNT(*)
+            FROM match_events e2
+            JOIN matches m2 ON m2.match_id = e2.match_id
+            WHERE e2.team_id = pg.team_id
+              AND e2.event_type = 'goal'
+              AND e2.player_id IS NOT NULL
+              AND m2.season = pg.season
+        ), 1
+    ) AS share_pct
+FROM (
+    SELECT e.player_id, e.team_id, m.season, COUNT(*) AS player_goals
+    FROM match_events e
+    JOIN matches m ON m.match_id = e.match_id
+    WHERE e.event_type = 'goal' AND e.player_id IS NOT NULL
+    GROUP BY e.player_id, e.team_id, m.season
+) pg
 JOIN players p ON p.player_id = pg.player_id
-WHERE pa.appearances >= 10  -- minimum sample size to avoid small-N noise (e.g. 1 goal / 1 appearance = 1.0)
-ORDER BY goals_per_appearance DESC
-LIMIT 20;
+JOIN teams t ON t.team_id = pg.team_id
+WHERE pg.player_goals >= 5
+ORDER BY share_pct DESC;
+
+-- Version B: window function (preferred — computes each team/season
+-- total once instead of re-aggregating per row)
+WITH player_season_goals AS (
+    SELECT e.player_id, e.team_id, m.season, COUNT(*) AS player_goals
+    FROM match_events e
+    JOIN matches m ON m.match_id = e.match_id
+    WHERE e.event_type = 'goal' AND e.player_id IS NOT NULL
+    GROUP BY e.player_id, e.team_id, m.season
+),
+with_team_total AS (
+    SELECT *,
+        SUM(player_goals) OVER (PARTITION BY team_id, season) AS team_total_goals
+    FROM player_season_goals
+)
+SELECT
+    w.player_id, p.player_name, w.team_id, t.team_name, w.season,
+    w.player_goals, w.team_total_goals,
+    ROUND(100.0 * w.player_goals / w.team_total_goals, 1) AS share_pct
+FROM with_team_total w
+JOIN players p ON p.player_id = w.player_id
+JOIN teams t ON t.team_id = w.team_id
+WHERE w.player_goals >= 5
+ORDER BY share_pct DESC;
 
 
 -- ============================================================
