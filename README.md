@@ -142,7 +142,7 @@ illustrative.
 | Q9 | Rolling 5-match form | `SUM() OVER (... ROWS BETWEEN 4 PRECEDING AND CURRENT ROW)` | Barcelona window correctly caps at 15 (5 wins) |
 | Q10 | Running season points total | `SUM() OVER (PARTITION BY team, season ORDER BY match_date)` | Resets cleanly at each new season |
 | Q11 | Longest winning streak | gaps-and-islands (see below) | **Bayern Munich 19** (their real 2013/14 streak), Celtic 17 |
-| Q12 | Most improved home/away goal differential | CTE + `UNION ALL` + aggregation + `LAG()` + join | Multi-layer synthesis query |
+| Q12 | Most improved home/away goal differential | CTE + `UNION ALL` + aggregation + `LAG()` + join | VVV-Venlo closed a 55-goal gap (2012/2013: +44 → -11) |
 
 **Q5 vs Q6 — these look similar but aren't duplicates.** Q5 ranks
 all-time career totals within a league (one row per league). Q6 resets the
@@ -245,8 +245,7 @@ football-performance-analytics/
 ├── docs/
 │   ├── schema_diagram.png
 │   ├── visualizations/      # Generated charts
-│   ├── query_outputs/       # Real captured output per query
-│   └── screenshots/
+│   └── query_outputs/       # Real captured output per query
 ├── data/                     # gitignored — raw SQLite dataset + staging CSV
 └── assets/
 ```
