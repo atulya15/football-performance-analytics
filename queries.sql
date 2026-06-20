@@ -63,7 +63,15 @@ ORDER BY t.team_name, tm.season;
 -- Business Question: How much stronger is a team at home vs away,
 --                     league-wide and per team?
 -- SQL Concepts: CASE WHEN, aggregation, CTEs, comparison across
---               two derived rates
+--               two derived rates, HAVING to filter a grouped CTE
+-- NOTE — minimum sample size: the per-team ranking filters to teams
+--   with HAVING COUNT(*) >= 50 home matches. Without this, the
+--   leaderboard was dominated by teams with a single partial season
+--   in the dataset (e.g. CD Numancia at 19 home games outranked
+--   Manchester City at 152 home games) — a handful of small-sample
+--   results swinging on a couple of upsets, not a real signal about
+--   home-field strength. 50 home matches is roughly 1.5 seasons,
+--   enough to smooth out single-season noise.
 -- ============================================================
 -- League-wide
 SELECT
@@ -72,11 +80,12 @@ SELECT
     ROUND(100.0 * SUM(CASE WHEN home_score = away_score THEN 1 ELSE 0 END) / COUNT(*), 2) AS draw_pct
 FROM matches;
 
--- Per team
+-- Per team (min. 50 home matches to exclude small-sample/single-season teams)
 WITH home_stats AS (
     SELECT home_team_id AS team_id, COUNT(*) AS home_played,
         SUM(CASE WHEN home_score > away_score THEN 1 ELSE 0 END) AS home_wins
     FROM matches GROUP BY home_team_id
+    HAVING COUNT(*) >= 50
 ),
 away_stats AS (
     SELECT away_team_id AS team_id, COUNT(*) AS away_played,
